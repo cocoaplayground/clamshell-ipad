@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51C1C486814D4876B92C48A6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A1425656EB410BA6B3CDFE /* libPods.a */; };
 		8AC4AB10174E6E4500767865 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AC4AB0F174E6E4500767865 /* UIKit.framework */; };
 		8AC4AB12174E6E4500767865 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AC4AB11174E6E4500767865 /* Foundation.framework */; };
 		8AC4AB14174E6E4500767865 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AC4AB13174E6E4500767865 /* CoreGraphics.framework */; };
@@ -24,6 +25,20 @@
 		8AC4AB39174E6E4600767865 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AC4AB11174E6E4500767865 /* Foundation.framework */; };
 		8AC4AB41174E6E4600767865 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AC4AB3F174E6E4600767865 /* InfoPlist.strings */; };
 		8AC4AB44174E6E4600767865 /* ClamShell_iPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC4AB43174E6E4600767865 /* ClamShell_iPadTests.m */; };
+		8AC4AB4E174E78DE00767865 /* RubyMotion.docset in Resources */ = {isa = PBXBuildFile; fileRef = 8AC4AB4D174E78DE00767865 /* RubyMotion.docset */; };
+		8AC4AB4F174E78E200767865 /* RubyMotion.docset in Resources */ = {isa = PBXBuildFile; fileRef = 8AC4AB4D174E78DE00767865 /* RubyMotion.docset */; };
+		8AC4AB56174E81E900767865 /* DMMSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC4AB53174E81E900767865 /* DMMSearchResult.m */; };
+		8AC4AB57174E81E900767865 /* DMMSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC4AB53174E81E900767865 /* DMMSearchResult.m */; };
+		8AC4AB58174E81E900767865 /* DMMTokenStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC4AB55174E81E900767865 /* DMMTokenStore.m */; };
+		8AC4AB59174E81E900767865 /* DMMTokenStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC4AB55174E81E900767865 /* DMMTokenStore.m */; };
+		8AC4AB5F174EBDB800767865 /* script-attribute-c.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AC4AB5B174EBDB800767865 /* script-attribute-c.png */; };
+		8AC4AB60174EBDB800767865 /* script-attribute-c.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AC4AB5B174EBDB800767865 /* script-attribute-c.png */; };
+		8AC4AB61174EBDB800767865 /* script-attribute-i.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AC4AB5C174EBDB800767865 /* script-attribute-i.png */; };
+		8AC4AB62174EBDB800767865 /* script-attribute-i.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AC4AB5C174EBDB800767865 /* script-attribute-i.png */; };
+		8AC4AB63174EBDB800767865 /* script-attribute-m.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AC4AB5D174EBDB800767865 /* script-attribute-m.png */; };
+		8AC4AB64174EBDB800767865 /* script-attribute-m.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AC4AB5D174EBDB800767865 /* script-attribute-m.png */; };
+		8AC4AB65174EBDB800767865 /* script-block.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AC4AB5E174EBDB800767865 /* script-block.png */; };
+		8AC4AB66174EBDB800767865 /* script-block.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AC4AB5E174EBDB800767865 /* script-block.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,14 +52,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8AC4AB0C174E6E4500767865 /* ClamShell-iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ClamShell-iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2540835C03604BCFBC3A33DD /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		77A1425656EB410BA6B3CDFE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AC4AB0C174E6E4500767865 /* ClamShell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClamShell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AC4AB0F174E6E4500767865 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8AC4AB11174E6E4500767865 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8AC4AB13174E6E4500767865 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		8AC4AB17174E6E4500767865 /* ClamShell-iPad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClamShell-iPad-Info.plist"; sourceTree = "<group>"; };
+		8AC4AB17174E6E4500767865 /* ClamShell-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClamShell-Info.plist"; sourceTree = "<group>"; };
 		8AC4AB19174E6E4500767865 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8AC4AB1B174E6E4500767865 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8AC4AB1D174E6E4500767865 /* ClamShell-iPad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ClamShell-iPad-Prefix.pch"; sourceTree = "<group>"; };
+		8AC4AB1D174E6E4500767865 /* ClamShell-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ClamShell-Prefix.pch"; sourceTree = "<group>"; };
 		8AC4AB1E174E6E4500767865 /* DMMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMMAppDelegate.h; sourceTree = "<group>"; };
 		8AC4AB1F174E6E4500767865 /* DMMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMMAppDelegate.m; sourceTree = "<group>"; };
 		8AC4AB21174E6E4500767865 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -55,12 +72,21 @@
 		8AC4AB2B174E6E4500767865 /* DMMMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMMMasterViewController.m; sourceTree = "<group>"; };
 		8AC4AB2D174E6E4500767865 /* DMMDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMMDetailViewController.h; sourceTree = "<group>"; };
 		8AC4AB2E174E6E4500767865 /* DMMDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMMDetailViewController.m; sourceTree = "<group>"; };
-		8AC4AB35174E6E4600767865 /* ClamShell-iPadTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ClamShell-iPadTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AC4AB35174E6E4600767865 /* ClamShellTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClamShellTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AC4AB36174E6E4600767865 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		8AC4AB3E174E6E4600767865 /* ClamShell-iPadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClamShell-iPadTests-Info.plist"; sourceTree = "<group>"; };
+		8AC4AB3E174E6E4600767865 /* ClamShellTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClamShellTests-Info.plist"; sourceTree = "<group>"; };
 		8AC4AB40174E6E4600767865 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8AC4AB42174E6E4600767865 /* ClamShell_iPadTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClamShell_iPadTests.h; sourceTree = "<group>"; };
 		8AC4AB43174E6E4600767865 /* ClamShell_iPadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClamShell_iPadTests.m; sourceTree = "<group>"; };
+		8AC4AB4D174E78DE00767865 /* RubyMotion.docset */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RubyMotion.docset; sourceTree = "<group>"; };
+		8AC4AB52174E81E900767865 /* DMMSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMMSearchResult.h; sourceTree = "<group>"; };
+		8AC4AB53174E81E900767865 /* DMMSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMMSearchResult.m; sourceTree = "<group>"; };
+		8AC4AB54174E81E900767865 /* DMMTokenStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMMTokenStore.h; sourceTree = "<group>"; };
+		8AC4AB55174E81E900767865 /* DMMTokenStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMMTokenStore.m; sourceTree = "<group>"; };
+		8AC4AB5B174EBDB800767865 /* script-attribute-c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "script-attribute-c.png"; sourceTree = "<group>"; };
+		8AC4AB5C174EBDB800767865 /* script-attribute-i.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "script-attribute-i.png"; sourceTree = "<group>"; };
+		8AC4AB5D174EBDB800767865 /* script-attribute-m.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "script-attribute-m.png"; sourceTree = "<group>"; };
+		8AC4AB5E174EBDB800767865 /* script-block.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "script-block.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +97,7 @@
 				8AC4AB10174E6E4500767865 /* UIKit.framework in Frameworks */,
 				8AC4AB12174E6E4500767865 /* Foundation.framework in Frameworks */,
 				8AC4AB14174E6E4500767865 /* CoreGraphics.framework in Frameworks */,
+				51C1C486814D4876B92C48A6 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,18 +117,20 @@
 		8AC4AB03174E6E4500767865 = {
 			isa = PBXGroup;
 			children = (
-				8AC4AB15174E6E4500767865 /* ClamShell-iPad */,
-				8AC4AB3C174E6E4600767865 /* ClamShell-iPadTests */,
+				8AC4AB67174FC0D400767865 /* Vendor */,
+				8AC4AB15174E6E4500767865 /* ClamShell */,
+				8AC4AB3C174E6E4600767865 /* ClamShell-Tests */,
 				8AC4AB0E174E6E4500767865 /* Frameworks */,
 				8AC4AB0D174E6E4500767865 /* Products */,
+				2540835C03604BCFBC3A33DD /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
 		8AC4AB0D174E6E4500767865 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8AC4AB0C174E6E4500767865 /* ClamShell-iPad.app */,
-				8AC4AB35174E6E4600767865 /* ClamShell-iPadTests.octest */,
+				8AC4AB0C174E6E4500767865 /* ClamShell.app */,
+				8AC4AB35174E6E4600767865 /* ClamShellTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,32 +142,33 @@
 				8AC4AB11174E6E4500767865 /* Foundation.framework */,
 				8AC4AB13174E6E4500767865 /* CoreGraphics.framework */,
 				8AC4AB36174E6E4600767865 /* SenTestingKit.framework */,
+				77A1425656EB410BA6B3CDFE /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8AC4AB15174E6E4500767865 /* ClamShell-iPad */ = {
+		8AC4AB15174E6E4500767865 /* ClamShell */ = {
 			isa = PBXGroup;
 			children = (
+				8AC4AB51174E797D00767865 /* Controllers */,
+				8AC4AB50174E797600767865 /* Models */,
+				8AC4AB5A174EBDA500767865 /* Assets */,
 				8AC4AB1E174E6E4500767865 /* DMMAppDelegate.h */,
 				8AC4AB1F174E6E4500767865 /* DMMAppDelegate.m */,
 				8AC4AB27174E6E4500767865 /* MainStoryboard.storyboard */,
-				8AC4AB2A174E6E4500767865 /* DMMMasterViewController.h */,
-				8AC4AB2B174E6E4500767865 /* DMMMasterViewController.m */,
-				8AC4AB2D174E6E4500767865 /* DMMDetailViewController.h */,
-				8AC4AB2E174E6E4500767865 /* DMMDetailViewController.m */,
 				8AC4AB16174E6E4500767865 /* Supporting Files */,
 			);
+			name = ClamShell;
 			path = "ClamShell-iPad";
 			sourceTree = "<group>";
 		};
 		8AC4AB16174E6E4500767865 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8AC4AB17174E6E4500767865 /* ClamShell-iPad-Info.plist */,
+				8AC4AB17174E6E4500767865 /* ClamShell-Info.plist */,
 				8AC4AB18174E6E4500767865 /* InfoPlist.strings */,
 				8AC4AB1B174E6E4500767865 /* main.m */,
-				8AC4AB1D174E6E4500767865 /* ClamShell-iPad-Prefix.pch */,
+				8AC4AB1D174E6E4500767865 /* ClamShell-Prefix.pch */,
 				8AC4AB21174E6E4500767865 /* Default.png */,
 				8AC4AB23174E6E4500767865 /* Default@2x.png */,
 				8AC4AB25174E6E4500767865 /* Default-568h@2x.png */,
@@ -146,48 +176,92 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		8AC4AB3C174E6E4600767865 /* ClamShell-iPadTests */ = {
+		8AC4AB3C174E6E4600767865 /* ClamShell-Tests */ = {
 			isa = PBXGroup;
 			children = (
 				8AC4AB42174E6E4600767865 /* ClamShell_iPadTests.h */,
 				8AC4AB43174E6E4600767865 /* ClamShell_iPadTests.m */,
 				8AC4AB3D174E6E4600767865 /* Supporting Files */,
 			);
+			name = "ClamShell-Tests";
 			path = "ClamShell-iPadTests";
 			sourceTree = "<group>";
 		};
 		8AC4AB3D174E6E4600767865 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8AC4AB3E174E6E4600767865 /* ClamShell-iPadTests-Info.plist */,
+				8AC4AB3E174E6E4600767865 /* ClamShellTests-Info.plist */,
 				8AC4AB3F174E6E4600767865 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8AC4AB50174E797600767865 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8AC4AB52174E81E900767865 /* DMMSearchResult.h */,
+				8AC4AB53174E81E900767865 /* DMMSearchResult.m */,
+				8AC4AB54174E81E900767865 /* DMMTokenStore.h */,
+				8AC4AB55174E81E900767865 /* DMMTokenStore.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		8AC4AB51174E797D00767865 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8AC4AB2A174E6E4500767865 /* DMMMasterViewController.h */,
+				8AC4AB2B174E6E4500767865 /* DMMMasterViewController.m */,
+				8AC4AB2D174E6E4500767865 /* DMMDetailViewController.h */,
+				8AC4AB2E174E6E4500767865 /* DMMDetailViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8AC4AB5A174EBDA500767865 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				8AC4AB5B174EBDB800767865 /* script-attribute-c.png */,
+				8AC4AB5C174EBDB800767865 /* script-attribute-i.png */,
+				8AC4AB5D174EBDB800767865 /* script-attribute-m.png */,
+				8AC4AB5E174EBDB800767865 /* script-block.png */,
+				8AC4AB4D174E78DE00767865 /* RubyMotion.docset */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		8AC4AB67174FC0D400767865 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8AC4AB0B174E6E4500767865 /* ClamShell-iPad */ = {
+		8AC4AB0B174E6E4500767865 /* ClamShell */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8AC4AB47174E6E4600767865 /* Build configuration list for PBXNativeTarget "ClamShell-iPad" */;
+			buildConfigurationList = 8AC4AB47174E6E4600767865 /* Build configuration list for PBXNativeTarget "ClamShell" */;
 			buildPhases = (
+				F7C2A15D4ECF4E99BBBE5102 /* Check Pods Manifest.lock */,
 				8AC4AB08174E6E4500767865 /* Sources */,
 				8AC4AB09174E6E4500767865 /* Frameworks */,
 				8AC4AB0A174E6E4500767865 /* Resources */,
+				FA591FEE09134910B0A61C13 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "ClamShell-iPad";
+			name = ClamShell;
 			productName = "ClamShell-iPad";
-			productReference = 8AC4AB0C174E6E4500767865 /* ClamShell-iPad.app */;
+			productReference = 8AC4AB0C174E6E4500767865 /* ClamShell.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8AC4AB34174E6E4600767865 /* ClamShell-iPadTests */ = {
+		8AC4AB34174E6E4600767865 /* ClamShellTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8AC4AB4A174E6E4600767865 /* Build configuration list for PBXNativeTarget "ClamShell-iPadTests" */;
+			buildConfigurationList = 8AC4AB4A174E6E4600767865 /* Build configuration list for PBXNativeTarget "ClamShellTests" */;
 			buildPhases = (
 				8AC4AB30174E6E4600767865 /* Sources */,
 				8AC4AB31174E6E4600767865 /* Frameworks */,
@@ -199,9 +273,9 @@
 			dependencies = (
 				8AC4AB3B174E6E4600767865 /* PBXTargetDependency */,
 			);
-			name = "ClamShell-iPadTests";
+			name = ClamShellTests;
 			productName = "ClamShell-iPadTests";
-			productReference = 8AC4AB35174E6E4600767865 /* ClamShell-iPadTests.octest */;
+			productReference = 8AC4AB35174E6E4600767865 /* ClamShellTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -214,7 +288,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Delisa Mason";
 			};
-			buildConfigurationList = 8AC4AB07174E6E4500767865 /* Build configuration list for PBXProject "ClamShell-iPad" */;
+			buildConfigurationList = 8AC4AB07174E6E4500767865 /* Build configuration list for PBXProject "ClamShell" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -226,8 +300,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8AC4AB0B174E6E4500767865 /* ClamShell-iPad */,
-				8AC4AB34174E6E4600767865 /* ClamShell-iPadTests */,
+				8AC4AB0B174E6E4500767865 /* ClamShell */,
+				8AC4AB34174E6E4600767865 /* ClamShellTests */,
 			);
 		};
 /* End PBXProject section */
@@ -242,6 +316,11 @@
 				8AC4AB24174E6E4500767865 /* Default@2x.png in Resources */,
 				8AC4AB26174E6E4500767865 /* Default-568h@2x.png in Resources */,
 				8AC4AB29174E6E4500767865 /* MainStoryboard.storyboard in Resources */,
+				8AC4AB4E174E78DE00767865 /* RubyMotion.docset in Resources */,
+				8AC4AB5F174EBDB800767865 /* script-attribute-c.png in Resources */,
+				8AC4AB61174EBDB800767865 /* script-attribute-i.png in Resources */,
+				8AC4AB63174EBDB800767865 /* script-attribute-m.png in Resources */,
+				8AC4AB65174EBDB800767865 /* script-block.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +329,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AC4AB41174E6E4600767865 /* InfoPlist.strings in Resources */,
+				8AC4AB4F174E78E200767865 /* RubyMotion.docset in Resources */,
+				8AC4AB60174EBDB800767865 /* script-attribute-c.png in Resources */,
+				8AC4AB62174EBDB800767865 /* script-attribute-i.png in Resources */,
+				8AC4AB64174EBDB800767865 /* script-attribute-m.png in Resources */,
+				8AC4AB66174EBDB800767865 /* script-block.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +353,34 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
+		F7C2A15D4ECF4E99BBBE5102 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+		FA591FEE09134910B0A61C13 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -280,6 +392,8 @@
 				8AC4AB20174E6E4500767865 /* DMMAppDelegate.m in Sources */,
 				8AC4AB2C174E6E4500767865 /* DMMMasterViewController.m in Sources */,
 				8AC4AB2F174E6E4500767865 /* DMMDetailViewController.m in Sources */,
+				8AC4AB56174E81E900767865 /* DMMSearchResult.m in Sources */,
+				8AC4AB58174E81E900767865 /* DMMTokenStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +402,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AC4AB44174E6E4600767865 /* ClamShell_iPadTests.m in Sources */,
+				8AC4AB57174E81E900767865 /* DMMSearchResult.m in Sources */,
+				8AC4AB59174E81E900767865 /* DMMTokenStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +412,7 @@
 /* Begin PBXTargetDependency section */
 		8AC4AB3B174E6E4600767865 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8AC4AB0B174E6E4500767865 /* ClamShell-iPad */;
+			target = 8AC4AB0B174E6E4500767865 /* ClamShell */;
 			targetProxy = 8AC4AB3A174E6E4600767865 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -389,22 +505,24 @@
 		};
 		8AC4AB48174E6E4600767865 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2540835C03604BCFBC3A33DD /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ClamShell-iPad/ClamShell-iPad-Prefix.pch";
-				INFOPLIST_FILE = "ClamShell-iPad/ClamShell-iPad-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "ClamShell-iPad/ClamShell-Prefix.pch";
+				INFOPLIST_FILE = "ClamShell-iPad/ClamShell-Info.plist";
+				PRODUCT_NAME = ClamShell;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		8AC4AB49174E6E4600767865 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2540835C03604BCFBC3A33DD /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ClamShell-iPad/ClamShell-iPad-Prefix.pch";
-				INFOPLIST_FILE = "ClamShell-iPad/ClamShell-iPad-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "ClamShell-iPad/ClamShell-Prefix.pch";
+				INFOPLIST_FILE = "ClamShell-iPad/ClamShell-Info.plist";
+				PRODUCT_NAME = ClamShell;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -419,8 +537,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ClamShell-iPad/ClamShell-iPad-Prefix.pch";
-				INFOPLIST_FILE = "ClamShell-iPadTests/ClamShell-iPadTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "ClamShell-iPadTests/ClamShellTests-Info.plist";
+				PRODUCT_NAME = ClamShellTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -436,8 +554,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ClamShell-iPad/ClamShell-iPad-Prefix.pch";
-				INFOPLIST_FILE = "ClamShell-iPadTests/ClamShell-iPadTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "ClamShell-iPadTests/ClamShellTests-Info.plist";
+				PRODUCT_NAME = ClamShellTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -446,7 +564,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8AC4AB07174E6E4500767865 /* Build configuration list for PBXProject "ClamShell-iPad" */ = {
+		8AC4AB07174E6E4500767865 /* Build configuration list for PBXProject "ClamShell" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8AC4AB45174E6E4600767865 /* Debug */,
@@ -455,21 +573,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8AC4AB47174E6E4600767865 /* Build configuration list for PBXNativeTarget "ClamShell-iPad" */ = {
+		8AC4AB47174E6E4600767865 /* Build configuration list for PBXNativeTarget "ClamShell" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8AC4AB48174E6E4600767865 /* Debug */,
 				8AC4AB49174E6E4600767865 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		8AC4AB4A174E6E4600767865 /* Build configuration list for PBXNativeTarget "ClamShell-iPadTests" */ = {
+		8AC4AB4A174E6E4600767865 /* Build configuration list for PBXNativeTarget "ClamShellTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8AC4AB4B174E6E4600767865 /* Debug */,
 				8AC4AB4C174E6E4600767865 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

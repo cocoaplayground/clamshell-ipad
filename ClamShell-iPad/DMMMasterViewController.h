@@ -10,7 +10,7 @@
 
 @class DMMDetailViewController;
 
-@interface DMMMasterViewController : UITableViewController
+@interface DMMMasterViewController : UITableViewController <UISearchBarDelegate>
 
 @property (strong, nonatomic) DMMDetailViewController *detailViewController;
 

@@ -7,10 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DMMSearchResult.h"
 
-@interface DMMDetailViewController : UIViewController <UISplitViewControllerDelegate>
+@interface DMMDetailViewController : UIViewController <UISplitViewControllerDelegate, UIWebViewDelegate>
 
-@property (strong, nonatomic) id detailItem;
+@property (strong, nonatomic) DMMSearchResult *detailItem;
+@property (strong, nonatomic) IBOutlet UIWebView *webView;
 
 @property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 @end
